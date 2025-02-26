@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Sport</h1>
+        <p class="hint"><b>Hint:</b> A popular sport</p>
+        <p id="wordDisplay"></p>
+        <p>Guess one letter:
+            <input type="text" maxlength="1" id="letterInput">
+        </p>
+        <button type="button" onclick="checkLetter()">Submit</button>
+        <div id="messageBox" class="hidden"></div>
+    </div>
+</body>
+</html>
